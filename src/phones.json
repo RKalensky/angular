@@ -1,0 +1,64 @@
+[
+    {   
+        "id": "01",
+        "model": "Nokia 1100",
+        "describe": "Description of an product controller is defined by a JS constructor function so it’s cool stuff to use it",
+        "price": "35$"
+    },
+    
+    {   
+        "id": "02",
+        "model": "Samsung Nexus S",
+        "describe": "Description of an product controller is defined by a JS constructor function so it’s cool stuff to use it",
+        "price": "100$"
+    },
+    
+    {   
+        "id": "03",
+        "model": "HTC One",
+        "describe": "Description of an product controller is defined by a JS constructor function so it’s cool stuff to use it",
+        "price": "180$"
+    },
+    
+    {   
+        "id": "04",
+        "model": "Nokia 5700",
+        "describe": "Description of an product controller is defined by a JS constructor function so it’s cool stuff to use it",
+        "price": "60$"
+    },
+    
+    {   
+        "id": "05",
+        "model": "Sone Xperia Z",
+        "describe": "Description of an product controller is defined by a JS constructor function so it’s cool stuff to use it",
+        "price": "270$"
+    },
+    
+    {   
+        "id": "06",
+        "model": "Vertu",
+        "describe": "Description of an product controller is defined by a JS constructor function so it’s cool stuff to use it",
+        "price": "2500$"
+    },
+    
+    {   
+        "id": "07",
+        "model": "Aplle IPhone 4S",
+        "describe": "Description of an product controller is defined by a JS constructor function so it’s cool stuff to use it",
+        "price": "110$"
+    },
+    
+    {   
+        "id": "08",
+        "model": "Huawei Horor 6",
+        "describe": "Description of an product controller is defined by a JS constructor function so it’s cool stuff to use it",
+        "price": "250$"
+    },
+    
+    {   
+        "id": "09",
+        "model": "Aplle IPhone 6S",
+        "describe": "Description of an product controller is defined by a JS constructor function so it’s cool stuff to use it",
+        "price": "400$"
+    }
+]
