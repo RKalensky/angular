@@ -79,6 +79,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-content: flex-start;
 }
 
 .phone-describe .phone-img {
@@ -94,6 +95,7 @@ body {
 
 .phone-describe table {
     width: 70%;
+    margin-bottom: 2em;
 }
 
 .phone-describe table caption {
