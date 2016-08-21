@@ -2,22 +2,32 @@
 <html lang="en" ng-app="phones">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
         <title>angular task</title>
     </head>
     <body ng-controller="PhonesController as main">
-        <div>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-            </ul>
+        <div class="wrapper">
+            <section class="container phones-list-container" custom-repeat="main.getPhonesList()" >
+                <div class="phones-list" ng-click="main.backToHomePage(); main.openItem($event)">
+                    <div class="item-header">
+                        <h3>{{list.model}}</h3>
+                        <span>{{list.price}}</span>
+                    </div>
+                    <p>{{list.describe}}</p>
+                    <div class="item-footer">
+                        <a href="#/describe/{{list.id}}">view details</a>
+                    </div>
+                </div>
+            </section>
+            <div ng-controller="PhoneDescription as phone" class="container phone-describe" ng-view ng-if="main.onReady()"></div>
         </div>
-        {{main.name}}
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/directives.js"></script>
+    <script src="js/directives/directives.js"></script>
+    <script src="js/route.js"></script>
+    <script src="js/factories/phonesFactory.js"></script>
+    <script src="js/controllers/controllers.js"></script>
 </html>
