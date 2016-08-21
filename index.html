@@ -8,7 +8,7 @@
     </head>
     <body ng-controller="PhonesController as main">
         <div class="wrapper">
-            <section class="container phones-list-container" custom-repeat="main.getPhonesList()" >
+            <section class="container phones-list-container" custom-repeat="main.getPhonesList()" ng-if="main.onReady()">
                 <div class="phones-list" ng-click="main.backToHomePage(); main.openItem($event)">
                     <div class="item-header">
                         <h3>{{list.model}}</h3>
@@ -27,7 +27,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
     <script src="js/main.js"></script>
     <script src="js/directives/directives.js"></script>
-    <script src="js/route.js"></script>
+    <script src="js/routs/route.js"></script>
     <script src="js/factories/phonesFactory.js"></script>
     <script src="js/controllers/controllers.js"></script>
 </html>
