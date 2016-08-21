@@ -1,0 +1,61 @@
+[
+    {   
+        "id": "Nokia1100",
+        "model": "Nokia 1100",
+        "level": "basic",
+        "date": "2003",
+        "technology": "GSM 900 / 1800",
+        "battery": "Removable Li-Ion 850 mAh battery (BL-5C)",
+        "workTime": "Stand-by up to 400 h, Talk time up to 4 h 30 min",
+        "display": "Monochrome graphic, 96 x 65 pixels, 4 lines, 2-way scroll key, Full display screensaver, Dynamic font size, Softkeys",
+        "weight": "93 g",
+        "dimensions": "106x46x20 mm",
+        "imgSrc": "img/Nokia_1100.png",
+        "description": "When faced with the question of which is the best-selling phone, most of you probably think 'iPhone'. Hehe! Not even close! Although Apple's crown jewel does sell in cosmic quantities, the iPhone 6 having sold 71.5 million units in about three months, this lucky champ has nothing going on the Nokia 1100. The Nokia 1100 is an entry level basic handset which hit the market in late 2003. It didn't have two front cameras or a curved screen, but it did have a torch light, a pair of no-slip grips, and a dust-proof case. A classic Nokia badass that the then thriving Finns designed for the growing Chinese market and other regions that smelled of cash!"
+    },
+    
+    {   
+        "id": "SamsungNexus5",
+        "model": "Samsung Nexus 5",
+        "level": "premium",
+        "date": "2013",
+        "technology": "GSM 850 / 900 / 1800 / 1900",
+        "battery": "Non-removable Li-Po 2300 mAh battery",
+        "workTime": "Stand-by up to 300 h (3G), Talk time up to 17 h (3G)",
+        "display": "True HD IPS+ capacitive touchscreen, 16M colors, 4.95 inches (~70.8% screen-to-body ratio), 1080 x 1920 pixels (~445 ppi pixel density), Corning Gorilla Glass 3",
+        "weight": "130 g",
+        "dimensions": "137.9 x 69.2 x 8.6 mm",
+        "imgSrc": "img/Samsung_Nexus_5.png",
+        "description": "Nexus phone releases are timed to let Google have the last word - and what a way to have it! A phone that matches any flagship on specs and premieres the latest OS version, but costs barely half as much as some of them. The Nexus 5 promises a great finale to yet another exciting smartphone season and it's not only the droids that stand to attention."
+    },
+    
+    {   
+        "id": "SonyXperiaZ3",
+        "model": "Sony Xperia Z 3",
+        "level": "premium",
+        "date": "2014",
+        "technology": "GSM 850 / 900 / 1800 / 1900",
+        "battery": "Non-removable Li-Po 3100 mAh battery",
+        "workTime": "Stand-by up to 890 h (2G) / up to 740 h (3G), Talk time up to 14 h (2G) / up to 16 h (3G)",
+        "display": "True HD IPS+ capacitive touchscreen, 16M colors, 4.95 inches (~70.8% screen-to-body ratio), 1080 x 1920 pixels (~445 ppi pixel density), Corning Gorilla Glass 3",
+        "weight": "152 g",
+        "dimensions": "146 x 72 x 7.3 mm",
+        "imgSrc": "img/Sony_Xperia_Z3.png",
+        "description": "To say we are eager to get the Xperia Z3 out for a spin would be a massive understatement - with the race track still warm from the Compact. After all, if the Robin in Sony's IFA lineup can do that well, we can only imagine what Batman is capable of. The Z3 is certainly one you wouldn't want to miss."
+    },
+    
+    {   
+        "id": "AppleIPhone6S",
+        "model": "Apple IPhone 6S",
+        "level": "premium",
+        "date": "2015",
+        "technology": "GSM 850 / 900 / 1800 / 1900",
+        "battery": "Non-removable Li-Po 1715 mAh battery (6.9 Wh)",
+        "workTime": "Stand-by up to 240 h (3G), Talk time up to 14 h (3G)",
+        "display": "True HD IPS+ capacitive touchscreen, 16M colors, 4.95 inches (~70.8% screen-to-body ratio), 1080 x 1920 pixels (~445 ppi pixel density), Corning Gorilla Glass 3",
+        "weight": "143 g",
+        "dimensions": "138.3 x 67.1 x 7.1 mm",
+        "imgSrc": "img/Apple_Iphone_6S.png",
+        "description": "The new iPhone, being an S model, naturally comes with more power under the hood, but also brings the long awaited camera upgrade. The main camera now uses a 12MP sensor capable of 4K video recording as well as 1080p at 120fps, there is a brand new 5MP selfie camera too. And, it's the same screen size and resolution but we think it's exactly what Apple meant with 'the only thing that's changed is everything'."
+    }
+]
