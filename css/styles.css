@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font: 1em 'Calibri', sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 7.25em 1em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.container {
+    box-shadow: 0 0 10px 2px #D7D7D7;
+    padding: 1em;
+    overflow-y: auto;
+}
+
+.phones-list {
+    font-size: .875em;
+    padding: 1em;
+    text-transform: uppercase;
+    text-align: justify;
+    border-bottom: 1px solid #B2B2B2;
+    height: 4.2em;
+    overflow: hidden;
+}
+
+.show-phones-list {
+    overflow: visible;
+    height: auto;
+}
+
+.phones-list-container {
+    width: 24%;
+}
+
+.phone-describe {
+    width: 74%;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: .3em;
+}
+
+.item-header span,
+.item-header h3 {
+    font-size: 1.32em;;
+    font-weight: bold;
+}
+
+.item-header span {
+    margin-left: 1em;
+}
+
+.item-footer {
+    margin-top: .75em;
+    text-align: right;
+}
+
+.item-footer a{
+    text-decoration: none;
+    color: #24C618;
+}
+
+.phone-describe {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.phone-describe .phone-img {
+    text-align: center;
+    width: 28%;
+    height: 17em;
+}
+
+.phone-describe .phone-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.phone-describe table {
+    width: 70%;
+}
+
+.phone-describe table caption {
+    font-size: 1.6em;
+    text-align: left;
+}
+
+.phone-describe table td {
+    border: 1px solid #D7D7D7;
+    padding: .25em;
+}
+
+.phone-describe table td:first-of-type {
+    font-weight: bold;
+    border-left: none;
+    width: 20%; 
+}
